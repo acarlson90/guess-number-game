@@ -8,6 +8,7 @@
     <artifactId>guess-number-game</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <name>guess-number-game</name>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
