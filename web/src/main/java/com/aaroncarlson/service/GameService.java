@@ -1,4 +1,11 @@
 package com.aaroncarlson.service;
 
-public class GameService {
+public interface GameService {
+
+    boolean isGameOver();
+    String getMainMessage();
+    String getResultMessage();
+    void checkGuess(int guess);
+    void reset();
+
 }

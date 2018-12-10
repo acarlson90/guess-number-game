@@ -1,0 +1,7 @@
+<thlogic>
+    <attr sel="#headId" th:replace="~{fragments/header::headerFragment}"/>
+    <attr sel="#resultMessage" th:text="${__${T(com.aaroncarlson.util.constants.AttributeNames).RESULT_MESSAGE}__}"/>
+    <attr sel="#restartMapping" th:href="@{__${T(com.aaroncarlson.util.constants.Mappings).RESTART}__}"/>
+    <attr sel="#homeMapping" th:href="@{__${T(com.aaroncarlson.util.constants.Mappings).HOME}__}"/>
+    <attr sel="#footerId" th:replace="~{fragments/footer::footerFragment}"/>
+</thlogic>

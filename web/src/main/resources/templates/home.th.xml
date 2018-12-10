@@ -1,0 +1,5 @@
+<thlogic>
+    <attr sel="#headId" th:replace="~{fragments/header::headerFragment}"/>
+    <attr sel="#playMapping" th:href="@{__${T(com.aaroncarlson.util.constants.Mappings).PLAY}__}"/>
+    <attr sel="#footerId" th:replace="~{fragments/footer::footerFragment}"/>
+</thlogic>
